@@ -16,7 +16,8 @@
         "editor.detectIndentation": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports.ruff": true,
-            "source.sortImports.ruff": true
+            "source.sortImports.ruff": true,
+            "source.fixAll.ruff": true,
         },
         "editor.defaultFormatter": "ms-python.black-formatter",
     },

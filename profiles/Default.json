@@ -1,0 +1,101 @@
+{
+    // ### Editor ###
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.tabSize": 4,
+    // ### Workbench ###
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    // ___ Better Comments ___
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "###",
+            "color": "black",
+            "strikethrough": false,
+            "underline": true,
+            "backgroundColor": "#E5C687",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "___",
+            "color": "black",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#bee3db",
+            "bold": false,
+            "italic": true
+        }
+    ],
+    // ___ Error Lens ___
+    "errorLens.enabledDiagnosticLevels": [
+        "error"
+    ],
+    // ___ GlassIt ___
+    "glassit.alpha": 225,
+    // ___ Power Mode ___
+    "powermode.enabled": true,
+    "powermode.shake.enabled": false,
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.combo.timerEnabled": "hide",
+    "powermode.explosions.customCss": {
+        "background-color": "transparent",
+        "background-size": "contain",
+        "background-repeat": "no-repeat",
+        "background-position": "center",
+    },
+    "powermode.explosions.customExplosions": [
+        "https://media0.giphy.com/media/YqzszOjOBBvMeqYIn9/giphy.gif",
+    ],
+    "powermode.explosions.size": 5,
+    "powermode.presets": "flames",
+}

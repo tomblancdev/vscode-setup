@@ -120,4 +120,9 @@
     // ___ Ruff ___
     "ruff.enable": true,
     "ruff.importStrategy": "fromEnvironment",
+    // ___ Mypy ___
+    "mypy-type-checker.importStrategy": "fromEnvironment",
+    "mypy-type-checker.args": [
+        "--follow-imports=normal",
+    ],
 }
